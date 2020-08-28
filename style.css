@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+body{
+  background-color: lightskyblue;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+}
