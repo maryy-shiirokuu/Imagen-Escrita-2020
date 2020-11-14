@@ -1,22 +1,37 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
+
+
 canvas {
   display: block;
 }
 
 body{
-  background-color: lightskyblue;
+  background-color: rgb(142, 162, 255);
   font-size: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  width: 80%;
+  max-width: 7000px;
+  margin: 0 auto
+  
+}
+.container{
   width: 80%;
   max-width: 700px;
-  margin: 0 auto
+  margin: 0 auto; 
 }
+  footer{
+    background-color:rgb(69, 89, 182);
+    color: rgb(255, 255, 255);
+    padding: 1em; /* EM square */
+    max-resolution: top 2px;em; 
+    Font-size:40px;
+    margin-top: 2em;
+  
+    }
 
-
-h1{
-    font-size: 50px;
-    font-weight: normal;
-}
+footer a{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: crosshair; 
+  }
