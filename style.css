@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
 
+header{ 
+  font-size: 35px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 4px 30px;
+  margin-top: 2em;
+  background-color:rgb(130, 112, 212);
+}
 
 canvas {
   display: block;
 }
 
 body{
-  background-color: rgb(142, 162, 255);
+  background-color: rgb(184, 168, 255);
   font-size: 20px;
   font-family: 'Saira Semi Condensed', sans-serif;
   width: 80%;
@@ -14,13 +22,12 @@ body{
   margin: 0 auto
   
 }
-.container{
-  width: 80%;
-  max-width: 700px;
-  margin: 0 auto; 
+#container{
+  columns: 2;
 }
+  
   footer{
-    background-color:rgb(69, 89, 182);
+    background-color:rgb(130, 112, 212);
     color: rgb(255, 255, 255);
     padding: 1em; /* EM square */
     max-resolution: top 2px;em; 
@@ -28,10 +35,3 @@ body{
     margin-top: 2em;
   
     }
-
-footer a{
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    text-decoration: underline;
-    cursor: crosshair; 
-  }
